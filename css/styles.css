@@ -182,7 +182,7 @@ img {
 
 .outh-nav {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .outh-contact {
@@ -190,6 +190,7 @@ img {
 }
 
 .outh-nav-li {
+  display: flex;
   padding-right: 10px;
   align-items: center;
 }
@@ -199,7 +200,7 @@ img {
 }
 
 .outh-nav .link {
-  display: block;
+  display: flex;
   padding: 32px 0;
 
   color: var(--title-text-color);
